@@ -50,7 +50,7 @@ public class SetUp {
 		ScenarioName = scenario.getName();
 		// String browser=data.getProperty("Browser");
 		driver = WebBrowser.setBrowserType("Chrome");
-		System.out.println("--------");
+		System.out.println("-----------");
 		System.out.println(driver.toString());
 		System.out.println("--------");
 		System.out.println(Thread.currentThread().getId());
