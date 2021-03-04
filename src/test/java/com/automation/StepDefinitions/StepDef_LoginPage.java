@@ -48,6 +48,7 @@ public class StepDef_LoginPage {
 	public void login_with_the_and(String string, String string2) throws InterruptedException {
 		PageObjects_LoginPage a = new PageObjects_LoginPage(SetUp.driver);
 		PageObjects_HomePage b = a.LogintoHomepage(string, string2);
+		System.out.println("CHeck");
 		
 	}
 
