@@ -69,11 +69,8 @@ public class PageObjects_LoginPage {
 		}
 	}
 	public PageObjects_HomePage LogintoHomepage(String Username1, String Password1) throws InterruptedException {
-//		user.isWebElementPresent(Username,driver);
-//		user.isWebElementPresent(Password,driver);
-//		user.isWebElementPresent(Submit,driver);
-		user.type(Username, Username1);
-		user.type(Password, Password1);
+
+		
 		Thread.sleep(3000);
 		Submit.click();
 		POhomepage = new PageObjects_HomePage();

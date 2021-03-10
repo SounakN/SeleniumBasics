@@ -19,20 +19,12 @@ public class DriverManager {
 
 		if (null == DriverService) {
 			switch (browser) {
-			case IE:
-				DriverService = new IEDriver();
-				break;
 
-			case FIREFOX:
-				DriverService = new FFDriver();
-				break;
-
+			/*
+			 * case FIREFOX: DriverService = new FFDriver(); break;
+			 */
 			case CHROME:
 				DriverService = new CHDriver();
-				break;
-
-			case HEADLESSHTMLUNIT:
-				DriverService = new HeadLessDriver();
 				break;
 
 			default:
