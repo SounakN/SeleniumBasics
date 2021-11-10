@@ -70,7 +70,8 @@ public class PageObjects_LoginPage {
 	}
 	public PageObjects_HomePage LogintoHomepage(String Username1, String Password1) throws InterruptedException {
 
-		
+		Username.sendKeys(Username1);
+		Password.sendKeys(Password1);
 		Thread.sleep(3000);
 		Submit.click();
 		POhomepage = new PageObjects_HomePage();

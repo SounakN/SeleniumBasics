@@ -13,7 +13,7 @@ public class PageObjects_HomePage {
 
 	protected WebDriver driver = SetUp.driver;
 	public ActionMethods user = new ActionMethods();
-	@FindBy(how=How.XPATH , using = "//a[text()='Welcome Paul']")
+	@FindBy(how=How.XPATH , using = "//a[text()='Welcome sauabh']")
 	public WebElement PageVerification;
 	
 	
